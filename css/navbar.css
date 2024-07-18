@@ -1,0 +1,15 @@
+.navbar {
+  padding: 2rem;
+  background-color: var(--color-light);
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
