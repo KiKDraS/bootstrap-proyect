@@ -1,4 +1,4 @@
-#Bootstrap Proyecto 
+# Bootstrap Project 
 
 Este proyecto es una adaptación del creado por la cuenta de
 [Youtube Freecodecamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol)
