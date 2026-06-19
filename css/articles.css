@@ -1,14 +1,15 @@
 .articulos {
   min-height: 500px;
   padding: 30px;
-}
 
-.articulos .card {
-  width: 80%;
-  max-width: 600px;
-  margin: 20px;
-}
+  .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+  }
 
-.articulos .card-header {
-  font-weight: bold;
+  .card-header {
+    font-weight: bold;
+    font-size: 1rem;
+  }
 }

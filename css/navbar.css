@@ -1,11 +1,18 @@
 .navbar {
-  padding: 2rem;
+  max-height: 76px;
+  padding: 32px;
   background-color: var(--color-light);
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 767px) {
+    background-color: var(--color-light);
+    position: relative;
+    top: 1rem;
+  }
 }
 
 @media (max-width: 767px) {
