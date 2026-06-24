@@ -1,0 +1,25 @@
+/*
+    Generals
+*/
+
+@import url("./bootstrap.min.css");
+@import url("../assets/icons/bootstrap-icons.min.css");
+@import url("./boilerplate.css");
+
+/*
+    Sections
+*/
+
+@import url("./sections/hero-section.css");
+@import url("./sections/expirience.css");
+@import url("./sections/articles.css");
+@import url("./sections/testimonials.css");
+@import url("./sections/footer.css");
+
+/*
+    Components
+*/
+
+@import url("./components/navbar.css");
+@import url("./components/contact.css");
+@import url("./components/proyects.css");
