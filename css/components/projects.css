@@ -1,0 +1,67 @@
+#projects {
+  padding: 40px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+
+  .container {
+    padding-top: 64px;
+    margin-bottom: 40px;
+
+    .project {
+      position: relative;
+
+      &:hover {
+        img {
+          opacity: 0.2;
+        }
+
+        .overlay {
+          opacity: 1;
+        }
+      }
+
+      .overlay {
+        --position: 50%;
+        --invert-position: -50%;
+
+        transition: all 0.2s ease;
+        opacity: 0;
+        position: absolute;
+        top: var(--position);
+        left: var(--position);
+        transform: translate(var(--invert-position), var(--invert-position));
+        text-align: center;
+
+        p {
+          font-size: 1.5rem;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+
+        i {
+          color: var(--bs-dark);
+          font-size: 4rem;
+          margin: 8px;
+        }
+
+        @media (max-width: 400px) {
+          p {
+            font-size: 1.2rem;
+          }
+
+          i {
+            font-size: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+}

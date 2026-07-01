@@ -1,5 +1,5 @@
 .hero {
-  background-color: var(--color-light);
+  background-color: var(--bs-light);
   min-height: calc(100dvh - 76px);
   text-align: center;
 
@@ -10,7 +10,7 @@
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 48px;
 
   h2 {
     font-size: 1.5rem;
@@ -19,13 +19,16 @@
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  --image-width-height: 200px;
+
+  width: var(--image-width-height);
+  height: var(--image-width-height);
+  margin: 24px;
 }
 
 .hero-inferior {
   margin: 0 auto;
   max-width: 600px;
   text-align: center;
+  font-size: 1.2rem;
 }

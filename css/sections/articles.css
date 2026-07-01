@@ -1,11 +1,11 @@
-.articulos {
+.articles {
   min-height: 500px;
-  padding: 30px;
+  padding: 32px;
 
   .card {
     width: 80%;
     max-width: 600px;
-    margin: 20px;
+    margin: 24px;
   }
 
   .card-header {

@@ -1,51 +1,54 @@
-.contacto {
+#contact {
+  padding: 0 16px;
+
   .container {
     max-width: 1100px;
     min-height: 200px;
-    padding: 20px;
-  }
+    padding: 16px;
+    margin-top: -80px;
+    background-color: var(--color-bg-2);
+    border-radius: 16px;
+    box-shadow: 0px 1px 4px 1px var(--bs-white);
 
-  .rectangulo {
-    margin-top: -5rem;
-    background-color: var(--color-bg-3);
-    border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px var(--color-white);
+    @media (max-width: 767px) {
+      margin-top: -32px;
+    }
   }
 
   .row {
     width: 100%;
     display: flex;
     align-items: center;
-  }
 
-  .descripcion {
-    color: var(--color-white);
-    font-size: 1.2rem;
-  }
-
-  button {
-    color: var(--color-white);
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid var(--color-white);
-    padding: 1.25em 2em;
-    margin: 10px;
-    border-radius: 100px;
-    transition: all 0.2s ease-in-out;
-
-    &:hover {
-      background-color: var(--color-white);
-      color: var(--color-black);
-
-      i {
-        color: var(--color-black);
-      }
+    p {
+      color: var(--bs-white);
+      font-size: 1.2rem;
     }
 
-    i {
-      color: var(--color-white);
-      font-size: 1.3rem;
+    button {
+      color: var(--bs-white);
+      font-weight: bold;
+      background-color: transparent;
+      border: 2px solid var(--bs-white);
+      padding: 24px 32px;
+      margin: 16px;
+      border-radius: 96px;
       transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background-color: var(--bs-white);
+        color: var(--bs-dark);
+
+        i {
+          color: var(--bs-dark);
+        }
+      }
+
+      i {
+        color: var(--bs-white);
+        font-size: 1.3rem;
+        transition: all 0.2s ease-in-out;
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 .navbar {
   max-height: 76px;
-  padding: 32px;
-  background-color: var(--color-light);
+  padding: 24px;
+  background-color: var(--bs-light);
 }
 
 .navbar-collapse {
@@ -9,9 +9,9 @@
   justify-content: space-between;
 
   @media (max-width: 767px) {
-    background-color: var(--color-light);
+    background-color: var(--bs-light);
     position: relative;
-    top: 1rem;
+    top: 16px;
   }
 }
 

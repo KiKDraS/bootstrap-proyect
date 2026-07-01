@@ -1,16 +1,17 @@
 :root {
   --font-rubik: "Rubik Dirt", cursive;
-  --font-quicksand: "Quicksand", sans-serif;
-  --font-share: "Share Tech Mono", monospace;
-  --color-white: #fff;
-  --color-black: #000;
   --color-shark: #584e4e;
   --color-green: #7ade30;
-  --color-light: #f5f6f7;
   --color-gray: #656060;
   --color-bg-1: #1b1b32;
-  --color-bg-2: #0a0a23;
-  --color-bg-3: #0d6efd;
+  --color-bg-2: #0d6efd;
+
+  /*
+    Reemplazar estilos Bootstrap
+  */
+  --bs-font-sans-serif: "Quicksand", sans-serif !important;
+  --bs-font-monospace: "Share Tech Mono", monospace !important;
+  --bs-light: #f5f6f7 !important;
 }
 
 
@@ -19,42 +20,34 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  h2 {
+    font-size: 2rem;
+    padding: 16px 0;
+    font-family: var(--font-rubik);
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    color: var(--color-shark);
+  }
 }
 
-.seccion-oscura {
-  color: var(--color-white);
+/*
+  Utility Class
+*/
+
+.dark-section {
+  color: var(--bs-white);
   background-color: var(--color-bg-1);
 }
 
-.seccion-clara {
-  color: var(--color-black);
-  background-color: var(--color-white);
-}
-
-.seccion-titulo {
-  font-size: 2rem;
-  padding: 15px 0;
-  font-family: var(--font-rubik);
-}
-
-.seccion-descripcion {
-  font-size: 1.2rem;
-  color: var(--color-shark);
-}
-
-.seccion-texto {
-  font-size: 1.2rem;
+.light-section {
+  color: var(--bs-dark);
+  background-color: var(--bs-white);
 }
 
 .btn-info {
   font-size: 1.1rem;
-  margin: 20px;
-}
-
-.texto-negro {
-  color: var(--color-black);
-}
-
-.texto-blanco {
-  color: var(--color-white);
+  margin: 18px;
 }
