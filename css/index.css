@@ -2,9 +2,9 @@
     Generals
 */
 
-@import url("./bootstrap.min.css");
+@import url("./globals/bootstrap.min.css");
 @import url("../assets/icons/bootstrap-icons.min.css");
-@import url("./boilerplate.css");
+@import url("./globals/boilerplate.css");
 
 /*
     Sections
