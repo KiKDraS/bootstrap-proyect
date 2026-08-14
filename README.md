@@ -30,21 +30,6 @@ Este repositorio está estructurado para que estudiantes y desarrolladores princ
 
 ---
 
-## Estructura del Proyecto
-
-```text
-bootstrap-proyect/
-├── index.html        # Estructura principal y maquetación pedagógica
-├── css/
-│   └── styles.css    # Estilos complementarios y personalización
-├── js/
-│   └── main.js       # Scripts adicionales e interactividad
-└── assets/
-    └── img/          # Recursos multimedia y gráficos de muestraop).
-```
-
----
-
 ## Créditos y Referencias
 
 Este repositorio es una bifurcación y adaptación del excelente trabajo realizado
