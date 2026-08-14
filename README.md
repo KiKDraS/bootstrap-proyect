@@ -1,41 +1,51 @@
-# Portafolio Adaptable - Proyecto Bootstrap
+# Bootstrap Project - Material Pedagógico
 
-Este proyecto es una adaptación práctica diseñada para introducir el framework
-**Bootstrap** y profundizar en conceptos avanzados de **CSS moderno**.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
----
-
-## 🎯 Objetivos del Proyecto
-
-1. **Introducción a Bootstrap:** Comprender la integración de un framework ágil
-   para el diseño de interfaces responsivas y componentes preestablecidos.
-2. **Aplicación de CSS Avanzado:** Trabajar sobre los conceptos de CSS vistos en
-   clase para personalizar, refinar y optimizar los estilos nativos del
-   framework, entendiendo el porqué de cada modificación.
+Proyecto práctico desarrollado con fines educativos y de demostración técnica. Sirve como base y material de apoyo en clases y talleres para introducir los fundamentos del diseño web adaptable (*responsive design*), la maquetación basada en grillas y la integración del framework Bootstrap.
 
 ---
 
-## 🛠️ Conceptos CSS Destacados y Aplicación
+## Finalidad Educativa
 
-Para justificar y aclarar los motivos de los cambios realizados sobre el diseño
-base, se implementaron las siguientes tecnologías y metodologías de CSS:
+Este repositorio está estructurado para que estudiantes y desarrolladores principiantes puedan:
 
-- **Custom Properties (Variables CSS):** Centralizamos la paleta de colores,
-  tipografías y espaciados clave del proyecto. Esto nos permite mantener la
-  consistencia visual y facilita enormemente realizar cambios globales o
-  implementar características como un modo oscuro en el futuro.
-- **CSS Nesting (Anidamiento Nativo):** Aprovechamos las capacidades nativas de
-  anidamiento de CSS moderno para escribir hojas de estilo más limpias, legibles
-  y con una estructura jerárquica idéntica a nuestro HTML, evitando la
-  redundancia de selectores repetitivos.
-- **Breakpoints y Media Queries:** Implementamos puntos de ruptura estratégicos
-  combinados con el sistema de grillas de Bootstrap. Esto garantiza que la
-  interfaz se adapte con fluidez y proporcione una experiencia de usuario óptima
-  en pantallas de todos los tamaños (móviles, tablets y desktop).
+- Comprender el flujo de trabajo estándar en maquetación frontend.
+- Identificar cómo integrar componentes predefinidos sin perder el control del diseño personalizado.
+- Analizar la resolución de problemas frecuentes de alineación, espaciado y tipografía responsiva.
+- Disponer de una base limpia para realizar prácticas de laboratorio, tareas guiadas o proyectos integradores.
 
 ---
 
-## 📜 Créditos y Referencias
+## Objetivos de Aprendizaje
+
+- **Sistema de Grillas (Grid System):** Manejo de contenedores (`container`, `container-fluid`), filas (`row`) y columnas con puntos de quiebre responsivos (`col-*`, `col-md-*`, `col-lg-*`).
+- **Componentes de Interfaz:** Implementación y personalización de barras de navegación (*navbar*), tarjetas (*cards*), modales, carruseles y formularios.
+- **Utilidades y Clases Auxiliares:** Uso de helpers de espaciado (`m-*`, `p-*`), visualización (`d-flex`, `d-none`), alineación y colores de contraste.
+- **Sobrescritura de Estilos:** Organización de hojas de estilo personalizadas (`styles.css`) manteniendo el orden de cascada sobre el framework.
+
+---
+
+## Estructura del Proyecto
+
+```text
+bootstrap-proyect/
+├── index.html        # Estructura principal y maquetación pedagógica
+├── css/
+│   └── styles.css    # Estilos complementarios y personalización
+├── js/
+│   └── main.js       # Scripts adicionales e interactividad
+└── assets/
+    └── img/          # Recursos multimedia y gráficos de muestraop).
+```
+
+---
+
+## Créditos y Referencias
 
 Este repositorio es una bifurcación y adaptación del excelente trabajo realizado
 por la comunidad de **freeCodeCamp**. Respetamos y agradecemos enormemente el
