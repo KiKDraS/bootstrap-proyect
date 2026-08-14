@@ -4,7 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+[![Propósito](https://img.shields.io/badge/Propósito-Educativo%20%2F%20EducaciónIT-blue?style=flat-square)](#contexto-y-propósito-pedagógico)
 
 Proyecto práctico desarrollado con fines educativos y de demostración técnica. Sirve como base y material de apoyo en clases y talleres para introducir los fundamentos del diseño web adaptable (*responsive design*), la maquetación basada en grillas y la integración del framework Bootstrap.
 
